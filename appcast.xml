@@ -3,10 +3,10 @@
   <channel>
     <title>Lipi</title>
     <item>
-      <title>Lipi 0.9.2</title>
-      <pubDate>Mon, 09 Nov 2026 15:03:13 GMT</pubDate>
-      <sparkle:version>52</sparkle:version>
-      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <title>Lipi 0.9.3</title>
+      <pubDate>Mon, 09 Nov 2026 15:58:18 GMT</pubDate>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="52" data-v="0.9.2"><h3>v0.9.2<span class="tag">설치할 버전</span><small>2026-11-10</small></h3>
+<section data-sparkle-version="53" data-v="0.9.3"><h3>v0.9.3<span class="tag">설치할 버전</span><small>2026-11-10</small></h3>
+<ul>
+<li>고침: 톱니 · ⌘, · 메뉴로 설정을 열면 처음 연 데스크탑이나 다른 모니터에 뜨던 것. 이제 지금 보고 있는 데스크탑 · 화면에 뜹니다. 다른 데스크탑에 열어 둔 설정 창도 지금 데스크탑으로 데려옵니다.</li>
+<li>고침: 음성 인식 &amp; 자막 시간 설정 창도 다른 데스크탑에 열려 있으면 닫히지 않고 지금 데스크탑으로 옵니다.</li>
+</ul></section>
+<section data-sparkle-version="52" data-v="0.9.2"><h3>v0.9.2<small>2026-11-10</small></h3>
 <ul>
 <li>고침: 글씨 크기를 바꾼 뒤 Lipi 창 내용이 잘리거나(빠른 설정 칸이 오른쪽 끝에서 끊김) 창 크기를 손으로 바꿔야 바로잡히던 것. 단계를 바꾸는 즉시 창이 지금 크기 × 새 비율로 바뀝니다(왼쪽 위는 그대로, 화면보다 크면 화면 안에서 멈춤).</li>
 <li>고침: Lipi 창을 넓히거나 줄여도 내용이 고정 크기로 한쪽에 몰려 빈 곳이 생기던 것. 이제 늘 창 전체를 채우고, 가운데 자막 기록 칸이 늘고 줄며 양옆 칸만 정해진 너비입니다. 창의 가장 작은 크기는 글씨 크기를 따라 커지고 작아집니다.</li>
@@ -41,7 +46,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>새로: 저장된 값 초기화(설정 › 화면 · 일반 맨 아래). 화면 · 자막 창 · 설정 · 주제 · 사용량 기록 · API 키를 골라 지웁니다. 녹음 · 자막 파일과 내려받은 모델은 지우지 않습니다.</li>
 <li>바뀜: 메뉴 막대 메뉴의 「Lipi 창 열기 (설정) ⌘,」 를 「Lipi 창 열기」로. 새 버전이 있으면 「새 버전 — 업데이트…」 줄이 생깁니다.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.2.zip" length="13678599" type="application/octet-stream" sparkle:edSignature="8fBVCj+eLiNVQ6sHc5V1CID9aiPpCiw0W2LYGOgctyFMi6q4QI3GKMNgejKK2WRspQ6nq/Ag8MdsfhU8i0NiAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.3.zip" length="13681670" type="application/octet-stream" sparkle:edSignature="PwbWzjPxP+HNnRC9c0NwY19U/C9JlDg9HkgXkEEDToxufvhsbHz+QLB+DOxtW4HCs0CiF3YHMNp4HuEEjcLICg=="/>
     </item>
   </channel>
 </rss>

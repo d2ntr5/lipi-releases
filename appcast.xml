@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Lipi</title>
+    <item>
+      <title>Lipi 0.9.0</title>
+      <pubDate>Mon, 09 Nov 2026 11:56:55 GMT</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>
+section h3 { margin: 0 0 2px; font-size: 1.05em; }
+section h3 small { font-weight: normal; color: #8E8E93; margin-left: 6px; }
+section .tag { font-size: 0.8em; font-weight: bold; color: #fff; background: #0A84FF; border-radius: 4px; padding: 0 5px; margin-left: 6px; }
+section ul { margin: 0 0 12px; padding-left: 18px; }
+.sparkle-installed-version > * { display: none; }
+.sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
+.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="49" data-v="0.9.0"><h3>v0.9.0<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>새로: 앱 안 업데이트. 새 버전이 나오면 Lipi 창 머리 톱니(⚙)에 초록 배지가 뜨고, 설정 › 업데이트에서 바뀐 점을 보고 바로 설치합니다(자동 설치는 하지 않음). 이번 0.9.0 은 한 번 직접 받아 덮어써야 하고, 다음 버전부터 앱 안에서 받습니다.</li>
+<li>바뀜: 설정이 Lipi 창 안의 「설정」 탭에서 따로 뜨는 설정 창으로 옮겨졌습니다. 머리 톱니(⚙) 또는 ⌘, 로 엽니다. 탭은 위쪽 한 줄, 창은 끌어서 옮길 수 있고 자리를 기억합니다.</li>
+<li>바뀜: Lipi 창 머리를 다른 앱과 같은 모양으로(아이콘 · Lipi · 버전 · 톱니, 머리 색).</li>
+<li>새로: 머리 색 9가지(설정 › 화면 · 일반, 기본 청록). 머리 · 설정 머리 · 스위치 · 설정의 주 단추에 씁니다.</li>
+<li>새로: 설정 › 업데이트(지금 버전 · 자동 확인 · 마지막 확인 · 모든 버전 보기)와 설정 › 정보.</li>
+<li>새로: 저장된 값 초기화(설정 › 화면 · 일반 맨 아래). 화면 · 자막 창 · 설정 · 주제 · 사용량 기록 · API 키를 골라 지웁니다. 녹음 · 자막 파일과 내려받은 모델은 지우지 않습니다.</li>
+<li>바뀜: 메뉴 막대 메뉴의 「Lipi 창 열기 (설정) ⌘,」 를 「Lipi 창 열기」로. 새 버전이 있으면 「새 버전 — 업데이트…」 줄이 생깁니다.</li>
+</ul></section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.0.zip" length="13650132" type="application/octet-stream" sparkle:edSignature="UcA87TlTEHdKeBKdNLwuxI6EYYW561jy+njnMkigQdW+kCTMkAzaxMR8q/2MvDZPnarKW9zTCEeMXZ1xDMqsBw=="/>
+    </item>
+  </channel>
+</rss>

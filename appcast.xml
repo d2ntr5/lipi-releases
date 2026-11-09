@@ -3,10 +3,10 @@
   <channel>
     <title>Lipi</title>
     <item>
-      <title>Lipi 0.9.0</title>
-      <pubDate>Mon, 09 Nov 2026 11:56:55 GMT</pubDate>
-      <sparkle:version>49</sparkle:version>
-      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <title>Lipi 0.9.1</title>
+      <pubDate>Mon, 09 Nov 2026 14:15:13 GMT</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,16 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="49" data-v="0.9.0"><h3>v0.9.0<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<section data-sparkle-version="51" data-v="0.9.1"><h3>v0.9.1<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>새로: 글씨 크기 4단계(작게 · 보통 · 크게 · 아주 크게, 설정 › 화면 · 일반 › 화면). 글씨와 함께 창 · 칸 · 단추 · 여백도 같은 비율로 커집니다. ⌘= 크게 · ⌘- 작게 · ⌘0 보통(보기 메뉴). 자막 창 글씨는 자막 창 탭의 크기를 그대로 따릅니다.</li>
+<li>바뀜: 라이트 모드 색을 다른 앱과 같게. 설정 상자 · 카드는 흰 바탕에 얇은 구분선, 칸 바탕은 창 기본 회색이라 무리가 또렷이 나뉩니다.</li>
+<li>바뀜: Lipi 창 위 탭(라이브 자막 · AI 자막 편집)과 음성 인식 번역 · 사이트 자막 번역, 소리 받는 방식 고르기를 흰 알약 모양으로. 안내 상자는 흰 바탕에 왼쪽 파란 줄.</li>
+<li>바뀜: 머리 색 견본을 눈 그림 없이 한 줄로, 화면 무리 순서를 머리 색 → 화면 모드 → 글씨 크기로.</li>
+<li>바뀜: 글씨 크기를 자리마다 하나로 맞춤(가장 작은 글씨 11pt). 작게 보이던 설명 글씨가 조금 커졌습니다.</li>
+<li>바뀜: 저장된 값 초기화의 「화면」에 글씨 크기도 들어갑니다.</li>
+</ul></section>
+<section data-sparkle-version="49" data-v="0.9.0"><h3>v0.9.0<small>2026-11-09</small></h3>
 <ul>
 <li>새로: 앱 안 업데이트. 새 버전이 나오면 Lipi 창 머리 톱니(⚙)에 초록 배지가 뜨고, 설정 › 업데이트에서 바뀐 점을 보고 바로 설치합니다(자동 설치는 하지 않음). 이번 0.9.0 은 한 번 직접 받아 덮어써야 하고, 다음 버전부터 앱 안에서 받습니다.</li>
 <li>바뀜: 설정이 Lipi 창 안의 「설정」 탭에서 따로 뜨는 설정 창으로 옮겨졌습니다. 머리 톱니(⚙) 또는 ⌘, 로 엽니다. 탭은 위쪽 한 줄, 창은 끌어서 옮길 수 있고 자리를 기억합니다.</li>
@@ -27,7 +36,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>새로: 저장된 값 초기화(설정 › 화면 · 일반 맨 아래). 화면 · 자막 창 · 설정 · 주제 · 사용량 기록 · API 키를 골라 지웁니다. 녹음 · 자막 파일과 내려받은 모델은 지우지 않습니다.</li>
 <li>바뀜: 메뉴 막대 메뉴의 「Lipi 창 열기 (설정) ⌘,」 를 「Lipi 창 열기」로. 새 버전이 있으면 「새 버전 — 업데이트…」 줄이 생깁니다.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.0.zip" length="13650132" type="application/octet-stream" sparkle:edSignature="UcA87TlTEHdKeBKdNLwuxI6EYYW561jy+njnMkigQdW+kCTMkAzaxMR8q/2MvDZPnarKW9zTCEeMXZ1xDMqsBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.1.zip" length="13679718" type="application/octet-stream" sparkle:edSignature="LWsDqY1XpZXAxOxxoRmuXffJo2IqFyFuUI3IjWahqNiXq3CBl0DgFZlJqTNI8U/U6HYzxUuWQT8Kd4DCDGq8Cw=="/>
     </item>
   </channel>
 </rss>

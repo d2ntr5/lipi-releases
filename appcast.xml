@@ -3,10 +3,10 @@
   <channel>
     <title>Lipi</title>
     <item>
-      <title>Lipi 0.9.8</title>
-      <pubDate>Thu, 19 Nov 2026 16:21:26 GMT</pubDate>
-      <sparkle:version>120</sparkle:version>
-      <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+      <title>Lipi 0.9.9</title>
+      <pubDate>Thu, 19 Nov 2026 16:30:36 GMT</pubDate>
+      <sparkle:version>122</sparkle:version>
+      <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="120" data-v="0.9.8"><h3>v0.9.8<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="122" data-v="0.9.9"><h3>v0.9.9<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>고침: 설정 › 업데이트 빨간 상자의 「자동 확인 끄기」 단추 글자를 빨강에서 기본 글자색으로. 회색 단추 위 빨간 글자가 다크에서 오히려 잘 안 보였습니다(라이트도 같게).</li>
+</ul></section>
+<section data-sparkle-version="120" data-v="0.9.8"><h3>v0.9.8<small>2026-11-20</small></h3>
 <ul>
 <li>고침: 다크 모드에서 설정 › 업데이트 빨간 상자(통신 문제)의 「자동 확인 끄기」 글자가 어두워 잘 안 보이던 것. 상자 제목처럼 다크에서만 밝게.</li>
 </ul></section>
@@ -68,7 +72,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>새로: 저장된 값 초기화(설정 › 화면 · 일반 맨 아래). 화면 · 자막 창 · 설정 · 주제 · 사용량 기록 · API 키를 골라 지웁니다. 녹음 · 자막 파일과 내려받은 모델은 지우지 않습니다.</li>
 <li>바뀜: 메뉴 막대 메뉴의 「Lipi 창 열기 (설정) ⌘,」 를 「Lipi 창 열기」로. 새 버전이 있으면 「새 버전 — 업데이트…」 줄이 생깁니다.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.8.zip" length="13702870" type="application/octet-stream" sparkle:edSignature="EUgRBbkIzKZpCMn7HXX+nAlCA3shPCg7nr+bboc9NMoiMG9D8WkfSePo4tIAckZaHiWbUcBZKeB7fL/Uw99aBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.9.zip" length="13702521" type="application/octet-stream" sparkle:edSignature="8uKncVKO5VI1/yLvHdPR4AvH8vwqmiWYLTiUyfH16exFEr8VfFHcBUyXwGohOh7TCsFLiGCgdC5ep+EEOVerCw=="/>
     </item>
   </channel>
 </rss>

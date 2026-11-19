@@ -3,10 +3,10 @@
   <channel>
     <title>Lipi</title>
     <item>
-      <title>Lipi 0.9.6</title>
-      <pubDate>Thu, 19 Nov 2026 15:22:05 GMT</pubDate>
-      <sparkle:version>116</sparkle:version>
-      <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+      <title>Lipi 0.9.7</title>
+      <pubDate>Thu, 19 Nov 2026 16:12:36 GMT</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="116" data-v="0.9.6"><h3>v0.9.6<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="118" data-v="0.9.7"><h3>v0.9.7<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>고침: 다크 모드에서 설정 › 업데이트의 초록 상자(새 버전) · 빨간 상자(통신 문제) 제목이 어두워 잘 안 보이던 것. 다크에서만 제목 색을 밝게 했습니다.</li>
+</ul></section>
+<section data-sparkle-version="116" data-v="0.9.6"><h3>v0.9.6<small>2026-11-20</small></h3>
 <ul>
 <li>고침: 다크 모드에서 주 단추 · 스위치 · 선택 표시가 어두운 머리 색이라 잘 안 보이던 것. 다크에서는 머리 색과 강조 글자 색의 중간색(청록이면 #59A494)을 씁니다. 앱 머리 · 설정 머리 띠 색은 그대로.</li>
 </ul></section>
@@ -60,7 +64,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>새로: 저장된 값 초기화(설정 › 화면 · 일반 맨 아래). 화면 · 자막 창 · 설정 · 주제 · 사용량 기록 · API 키를 골라 지웁니다. 녹음 · 자막 파일과 내려받은 모델은 지우지 않습니다.</li>
 <li>바뀜: 메뉴 막대 메뉴의 「Lipi 창 열기 (설정) ⌘,」 를 「Lipi 창 열기」로. 새 버전이 있으면 「새 버전 — 업데이트…」 줄이 생깁니다.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.6.zip" length="13701694" type="application/octet-stream" sparkle:edSignature="1xiUjb6J5T0/mFYS1rnhqjPnNlvZka2h1d8mdidu4KGACLwg0RZzIkLCTf9qQzyDORDIrdb5TyzLqXyfmtxCBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/lipi-releases/main/releases/Lipi-0.9.7.zip" length="13701998" type="application/octet-stream" sparkle:edSignature="H/AVvwL/mvdhsAO88sEKSz+tgbDsux+nSUP3jPJqAciq+6V/Fmoavk7U0yRahANJtymrKyKpK/JOjqctr0LyAA=="/>
     </item>
   </channel>
 </rss>
